@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        let tab=["Ahmed","Anas","Achraf"];
+        tab.push("Safae");
+        //document.write(tab);
+        tab.unshift("Sanae")
+        //document.write(tab);
+        tab.splice(3,0,"Omar");
+        document.write(tab);
+        //document.write(tab);
+        delete tab[2];
+        document.write(tab);
+        //document.write(tab);
+       tab.splice(2,0,"saad");
+       delete tab[5];
+        document.write(tab);
+        document.write("</br>"+array);
+        // concatene avec[aya maha]
+        let array2=["Aya","Maha"];
+        array = array.concat(array2);
+        
+        document.write("</br>"+array);
+        // supprimer Sanaa Maha Omar   
+        delete array[6];
+        delete array[4];
+        delete array[1];
+        document.write("</br>"+array);
+        //tri
+        array.sort();
+
+        
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Nom</label><br>
+        <input type="text" id="nom"><br>
+        <label for="">prenom</label> <br>
+        <input type="text" id="prenom"><br>
+        <label for="">ville</label> <br>
+        <input type="text" id="ville"><br>
+        <button type="button" onclick="afficher()" id="b1">submit</button>
+    </form>
+
+    <script>
+        function afficher(){
+            let personne = {
+                nom : document.getElementById("nom").value,
+                prenom : document.getElementById("prenom").value,
+                ville : document.getElementById("ville").value
+            };
+            alert("bonjour monsieur "+personne.nom+" "+personne.prenom);
+            document.write("monsieur "+personne.nom+" "+personne.prenom+" vous etes de ville : "+personne.ville);
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>La Semaine :</h2>
+    <button type="button" onclick="Lundi();lisLun(); document.getElementById('tx').value; ">jour1</button><br><br>
+    <button type="button" onclick="Mardi();lisMar;document.getElementById('tx').value;">jour2</button><br><br>
+    <button type="button" onclick="Mercredi()">jour3</button><br><br>
+    <button type="button" onclick="Jeudi()">jour4</button><br><br>
+    <button type="button" onclick="Vendredi()">jour5</button><br><br>
+    <button type="button" onclick="Samedi()">jour6</button><br><br>
+    <button type="button" onclick="Dimanche()">jour2</button><br><br>
+    <script  >
+             let txt=""
+        function Lundi(){
+            document.write("<h2>Lundi</h2>");
+        }
+        function Mardi(){
+            document.write("<h2>Mardi</h2>");
+        }
+        function Mercredi(){
+            document.write("<h2>Mercredi</h2>");
+        }
+        function Jeudi(){
+            document.write("<h2>Jeudi</h2>");
+        }
+        function Vendredi(){
+            document.write("<h2>Vendredi</h2>");
+        }
+        function Samedi(){
+            document.write("<h2>Samedi</h2>");
+        }
+        function Dimanche(){
+            document.write("<h2>Dimanche</h2>");
+        }
+        function lisLun(){
+            document.write("<input id='tx' type='text' width='300px' height='200px'>")
+           txt=document.getElementById('tx').value;
+            document.write("<button type='button' onclick='document.getElementById('tx').value '>Go</button>");
+            //document.write("<button type='text'  onclick='document.getElementById('Lii').value '>Go</button>");
+
+        }
+
+        
+    </script>
+    
+</body>
+</html>
+
+    </script>
+           
+</body>
+</html>
